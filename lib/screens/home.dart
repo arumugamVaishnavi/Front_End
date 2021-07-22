@@ -23,7 +23,9 @@ class Home extends StatelessWidget {
             ),
           ],
         ),
-        body: Container(),
+        body: Container(
+          child: Text('this is the home page'),
+        ),
       ),
     );
   }
